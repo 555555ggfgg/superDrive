@@ -19,6 +19,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // 路由注册
 app.use('/api/files', fileRoutes);
+app.use('/api/benchmark', require('./routes/benchmarkRoutes'));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

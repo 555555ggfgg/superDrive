@@ -21,7 +21,11 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.2",
-    "nodemon-webpack-plugin": "^2.0.0"
+    "nodemon-webpack-plugin": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/555555ggfgg/superDrive.git"
   }
 
 
